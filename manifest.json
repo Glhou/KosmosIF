@@ -1,0 +1,27 @@
+{
+  "manifest_version": 3,
+  "name": "KosmosIF",
+  "description": "Print papers impact factor on Kosmos",
+  "version": "1.0",
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "kosmosif@kosmos"
+    }
+  },
+  "action": {
+    "default_popup": "index.html"
+  },
+  "host_permissions": [
+    "https://www.resurchify.com/*"
+  ],
+  "content_scripts": [
+    {
+      "js": [
+        "script.js"
+      ],
+      "matches": [
+        "https://search.lib.keio.ac.jp/discovery/search*"
+      ]
+    }
+  ]
+}

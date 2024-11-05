@@ -1,0 +1,14 @@
+# Kosmos Impact Factor extension
+
+This extension permit to display the impact factor of a papaer on the Keio Kosmos library.
+
+## Usage
+
+1 - First run the proxy_server.py file to start the server.
+2.a - Installation of the extension on the browser temporarly.
+    2.1 - Go to [about:debugging#/runtime/this-firefox](about:debugging#/runtime/this-firefox) on Firefox.
+    2.2 - Click on "Load Temporary Add-on".
+    2.3 - Zip the extension folder and select it.
+2.b - Installation of the extension on the browser permanently.
+    2.1 - Download and install the extension on firefox : [https://addons.mozilla.org/firefox/downloads/file/4382410/d8852f3338aa4fd98895-1.0.xpi](extension link).
+3 - Go to the Keio Kosmos library and search for a paper.
